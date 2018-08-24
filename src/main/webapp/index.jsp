@@ -319,7 +319,7 @@
 			</SECTION>
 			<SECTION class="main-content">
 				<UL class="prod-list talk-list" id="prod-list">
-					<LI class="product cat-id-fashion  "><A
+					<LI class="product cat-id-fashion   "><A
 						href="http://localhost/0000101748">
 							<H3 class="cat-name">Fashion</H3>
 							<DIV class="img">
