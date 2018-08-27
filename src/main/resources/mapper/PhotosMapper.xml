@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- (1) -->
+<mapper namespace="com.example.demo.mapper.PhotosMapper">
+
+    <!-- (2) -->
+    <resultMap id="photosResultMap" type="PhotosModel">
+        <result property="pathFileName" column="path_file_name" />
+    </resultMap>
+
+    <!-- (3) -->
+    <select id="findPhotosById" parameterType="PhotosModel" resultMap="photosResultMap">
+    <![CDATA[
+        SELECT
+            id,
+            path_file_name,
+            title,
+            flg
+        FROM
+            photos
+        WHERE
+            id = #{id}
+    ]]>
+    </select>
+
+    <insert id="insertPhotos" parameterType="PhotosModel" useGeneratedKeys="true" keyProperty="id">
+    INSERT INTO
+        photos
+    (
+        path_file_name,
+        title,
+        flg        
+    )
+    VALUES
+    (
+        #{pathFileName},
+        #{title},
+        #{flg}
+    )
+    </insert>
+  
+
+    <update id="deletePhotos" parameterType="PhotosModel">
+    DELETE FROM
+        photos
+    WHERE
+    	id = #{id}       
+    </update>
+
+	<resultMap id="photosListResultMap" type="PhotosModel">
+        <result property="id" column="id" />
+        <result property="pathFileName" column="path_file_name" />
+        <result property="title" column="title" />
+        <result property="flg" column="flg" />
+    </resultMap>
+
+    <!-- (3) -->
+    <select id="findPhotos" parameterType="PageInfo" resultMap="photosListResultMap">
+    <![CDATA[
+       SELECT
+        	id,
+            path_file_name,
+            title,
+            flg
+        FROM
+            photos
+        limit ${from}, ${to}
+     ]]>
+    </select>
+
+</mapper>
