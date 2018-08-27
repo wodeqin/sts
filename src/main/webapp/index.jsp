@@ -1,6 +1,8 @@
 ﻿<!DOCTYPE HTML>
-<!-- saved from url=(0017)http://localhost/ -->
-<!DOCTYPE html PUBLIC "" "">
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <HTML>
 <HEAD>
 <META content="IE=11.0000" http-equiv="X-UA-Compatible">
@@ -319,11 +321,12 @@
 			</SECTION>
 			<SECTION class="main-content">
 				<UL class="prod-list talk-list" id="prod-list">
+				<c:forEach items="${photosModelList}" var = "photosModel">
 					<LI class="product cat-id-fashion   "><A
 						href="http://localhost/0000101748">
 							<H3 class="cat-name">Fashion</H3>
 							<DIV class="img">
-								<IMG src="front/BENWIRJW.htm">
+								<IMG src="${photosModel.pathFileName}">
 							</DIV>
 							<DIV class="content">
 								<P class="text">hoeg#P-1 hogehoge</P>
@@ -333,12 +336,13 @@
 							<LI class="entry-author"><A
 								href="http://localhost/user/tesssss">
 									<DIV class="author-img">
-										<I class="rank-icon "></I> <IMG src="front/user_no_image.jpg">
+										<I class="rank-icon "></I> <IMG src="img/next.png">
 									</DIV>
 									<SPAN>tesssss</SPAN>
 							</A></LI>
 							<LI class="entry-likes"><I class="icon-tello icon-heart"></I><SPAN>0</SPAN></LI>
 						</UL></LI>
+					</c:forEach>	
 					<DIV id="viewAjax" style="display: none;"></DIV>
 				</UL>
 				<BUTTON id="loadMore" onclick="loadMore();">
