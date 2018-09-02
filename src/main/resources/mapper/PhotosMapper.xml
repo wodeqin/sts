@@ -31,13 +31,17 @@
     (
         path_file_name,
         title,
-        flg        
+        flg,
+        created,
+        modified        
     )
     VALUES
     (
         #{pathFileName},
         #{title},
-        #{flg}
+        #{flg},
+        sysdate(),
+        sysdate()
     )
     </insert>
   
@@ -66,6 +70,7 @@
             flg
         FROM
             photos
+        ORDER BY created desc
         limit ${from}, ${to}
      ]]>
     </select>

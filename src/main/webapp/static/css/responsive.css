@@ -1,0 +1,1515 @@
+@media all and (max-width:768px)
+{
+.only-pc {
+	display: none !important;
+}
+}
+@media all and (min-width:769px)
+{
+.only-sp {
+	display: none !important;
+}
+}
+@media all and (min-width:769px)
+{
+body {
+	min-width: 1200px;
+}
+.container .banner .caption {
+	text-align: center;
+}
+}
+@media all and (max-width:768px)
+{
+body {
+	-ms-word-break: break-all;
+}
+.cats-menu {
+	margin-top: -10px; -ms-overflow-y: auto;
+}
+.cats-menu li {
+	padding: 15px 15px 11px;
+}
+.cats-menu li [class^='icon-web'] {
+	top: -3px;
+}
+.cats-menu li:first-child {
+	padding-top: 18px; padding-bottom: 10px;
+}
+.cats-menu li:first-child [class^='icon-web'] {
+	top: -3px;
+}
+.cats-menu .dropdown.item-magazine .dropdown-menu {
+	margin-top: 10px;
+}
+.container {
+	padding: 0px 15px; width: 100%;
+}
+.drawer-menu .menu-btn {
+	position: absolute;
+}
+.drawer-menu .js-toggle-left-slidebar {
+	left: 15px; top: 15px; height: 25px;
+}
+.drawer-menu .js-toggle-left-slidebar .icon-web-menu {
+	font-size: 21px;
+}
+.drawer-menu .js-toggle-right-slidebar {
+	top: 10px; right: 15px;
+}
+.menu-open {
+	height: 100%; position: relative;
+}
+.menu-open body [canvas='container'] {
+	position: fixed;
+}
+[off-canvas] {
+	padding-top: 12px; padding-bottom: 81px;
+}
+.message-list {
+	margin: 0px -15px;
+}
+.prod-list {
+	margin: 0px -15px; padding: 0px 1%;
+}
+.prod-list .product {
+	margin: 0px 1% 2%; width: 48%;
+}
+.prod-list .no-img > a {
+	height: 100%; display: block;
+}
+.prod-list .no-img > a:hover {
+	opacity: 1;
+}
+.prod-list .no-img .entry-meta {
+	left: 0px; right: 0px; bottom: 0px; border-top-color: inherit; position: absolute;
+}
+.prod-list .entry-meta .entry-comments {
+	margin-top: 8px;
+}
+.carousel {
+	padding-bottom: 15px;
+}
+#header {
+	margin-bottom: 0px;
+}
+#header .main-menu {
+	margin-bottom: 0px;
+}
+#header .main-menu .container {
+	padding: 0px; -ms-word-break: normal;
+}
+#header .main-menu .nav {
+	white-space: nowrap; -ms-overflow-x: auto;
+}
+#header .main-menu .nav li {
+	float: none; display: inline-block;
+}
+#header .main-menu .nav li a span {
+	padding-bottom: 10px;
+}
+#header .logo {
+	min-width: 175px;
+}
+#header .logo img {
+	height: 37px;
+}
+.slider {
+	margin: 0px -15px 15px;
+}
+.slider .swiper-container {
+	padding-top: 0px;
+}
+.slider .swiper-container .swiper-slide {
+	border-bottom-color: rgb(0, 0, 0); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.slider .swiper-container .swiper-slide .img {
+	width: 100%;
+}
+.slider .swiper-container .swiper-slide img {
+	width: 100%;
+}
+.slider .caption {
+	background: rgba(0, 0, 0, 0.35); left: 0px; width: 100%; bottom: 0px; position: absolute;
+}
+.slider .caption .title {
+	top: 2px; height: 32px; text-align: left; color: rgb(0, 0, 0); padding-left: 10px; font-size: 13px; position: relative; z-index: 9; background-color: transparent !important;
+}
+.slider .caption .text {
+	background: none; padding: 0px 10px 10px; text-align: left; font-size: 16px; position: static;
+}
+.slider .caption .text span {
+	display: block;
+}
+.slider .cat-id-infomation .title {
+	color: rgb(255, 255, 255);
+}
+.slider .cat-id-infomation .caption {
+	display: none;
+}
+.slider .cat-id-free .title {
+	color: rgb(255, 255, 255);
+}
+.slider .cat-id-free .other {
+	color: rgb(255, 255, 255);
+}
+.slider .swiper-slide .title {
+	border-radius: 0px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.slider .cat-id-magazine .title {
+	color: rgb(255, 255, 255);
+}
+.slider .cat-id-wanted .title {
+	color: rgb(255, 255, 255);
+}
+.slider .cat-id-mamagirl .title {
+	color: rgb(255, 255, 255);
+}
+.top-slider .swiper-button-next {
+	display: none;
+}
+.top-slider .swiper-button-prev {
+	display: none;
+}
+.page-mamagirl-cat .prod-list .product {
+	width: 98%; height: auto; padding-bottom: 0px;
+}
+.page-mamagirl-cat .prod-list .wanted.product {
+	width: 48%; height: auto; padding-bottom: 0px; min-height: inherit;
+}
+.page-mamagirl-cat .prod-list .wanted-image.product {
+	width: 48%; height: auto; padding-bottom: 0px; min-height: inherit;
+}
+.page-mamagirl-cat .prod-list .infomation.product {
+	width: 48%; height: auto; padding-bottom: 0px; min-height: inherit;
+}
+.page-mamagirl-cat .prod-list .product .img {
+	height: auto; max-height: none;
+}
+.page-mamagirl-cat .product .pr {
+	top: 0px;
+}
+.login-page {
+	padding: 0px; margin-top: 25px;
+}
+.signup-form select {
+	width: 27%;
+}
+.signup-form .fb-link .icon-web-facebook {
+	width: 7%; margin-right: 3%;
+}
+.signup-form .fb-link input {
+	width: 90%;
+}
+.signup-form .instagram-link .icon-web-instagram {
+	width: 7%; margin-right: 3%;
+}
+.signup-form .instagram-link input {
+	width: 90%;
+}
+.mypage-box .box-inner-left {
+	width: 32%; float: left; max-width: 200px;
+}
+.mypage-box .box-inner-right {
+	width: 68%; float: left;
+}
+.mypage-box .mypage-button {
+	font-size: 14px;
+}
+.mypage-box .mypage-button li {
+	padding-left: 40px;
+}
+.mypage-box .mypage-link {
+	margin: 10px auto 0px;
+}
+.mypage-box .mypage-link ul li {
+	text-align: center; margin-right: 0px; display: block;
+}
+.mypage-box .mypage-link ul li a {
+	font-size: 14px;
+}
+.read-post {
+	width: 80%; font-size: 16px;
+}
+.category-page .swiper-pagination {
+	top: 15px;
+}
+.category-page .slider {
+	margin-bottom: 0px;
+}
+.category-page .slider .swiper-container .swiper-slide {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.cat-meta {
+	margin: 0px -15px 20px; padding: 10px 0px;
+}
+.cat-meta li {
+	margin: 0px; padding: 0px; width: 25%; text-align: center;
+}
+.cat-meta li a::before {
+	margin-right: 6px;
+}
+.banner {
+	margin: 0px -15px !important; padding-top: 0px; padding-bottom: 30px;
+}
+.banner .cat-name {
+	border-radius: 0px; top: auto; height: 30px; text-align: left; bottom: 0px; line-height: 30px; padding-left: 15px; font-size: 14px; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.banner .img-desc {
+	bottom: 40px;
+}
+.banner .sub-txt {
+	bottom: 12px;
+}
+.main-content {
+	padding-bottom: 20px;
+}
+.main-content .post-content {
+	margin: 0px -15px; padding: 0px 15px 30px;
+}
+.main-content .sub-heading {
+	padding: 6px 0px 5px; letter-spacing: 2px; font-size: 9px; margin-bottom: 15px !important;
+}
+.main-content .brand-logos li {
+	width: 33.33%;
+}
+.main-content .brand-logos li:nth-child(3n) a {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+.main-content .magazine-slider .swiper-container {
+	padding-top: 0px;
+}
+.search-box {
+	margin-top: 15px; margin-bottom: 15px;
+}
+.search-box .icon-search {
+	font-size: 18px;
+}
+.search-box .search-input {
+	height: 32px;
+}
+.tab-link {
+	padding: 5px 0px;
+}
+.tab-link .icomoon-ico-article {
+	top: 2px; font-size: 21px;
+}
+.tab-link .icomoon-ico-article + span {
+	top: -1px;
+}
+.tab-link li a {
+	max-height: 26px;
+}
+.tab-link li a > span[class^='icon'] {
+	top: -2px; width: 21px; height: 21px; line-height: 21px; font-size: 10px;
+}
+.tab-link li a > span[class^='icon'] + span {
+	top: 1px; position: relative;
+}
+.tab-link li a > span.icon-ico-user {
+	top: -1px;
+}
+.mylike-page .cat-meta {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.mylike-page .cat-meta li.check a::before {
+	line-height: normal;
+}
+.mylike-page .cat-meta .check a span {
+	top: 0px;
+}
+.mylike-page .follow-list-box {
+	padding-left: 0px;
+}
+.mylike-page .follow-list-box .img-post {
+	right: 0px;
+}
+.mylike-page .follow-list-box .cmt {
+	left: 115px; top: 50%; position: absolute; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%);
+}
+.mylike-page .prod-list .product {
+	width: 31.33%; min-height: inherit;
+}
+.mylike-page .prod-list .no-img.product .content::before {
+	padding-top: 100%;
+}
+.ui-dialog {
+	max-width: 90%;
+}
+.ui-dialog .img-select {
+	padding-bottom: 20px;
+}
+.ui-dialog .img-select .col-1 {
+	width: 100%; padding-bottom: 15px; margin-bottom: 20px; border-bottom-color: rgb(35, 24, 21); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.ui-dialog .img-select .col-1 .choose-img {
+	margin: 0px auto; max-width: 220px;
+}
+.ui-dialog .img-select .col-2 {
+	width: 100%;
+}
+.ui-dialog .img-select .imgPreview {
+	min-height: 240px;
+}
+.ui-dialog .img-info {
+	padding: 10px 0px;
+}
+.ui-dialog .img-info input {
+	width: 100%;
+}
+.ui-dialog .img-info .input-group label {
+	width: 100%;
+}
+.magazine-title {
+	margin-top: 20px;
+}
+.sp-top-mergin {
+	margin-top: 20px;
+}
+.page-heading {
+	padding: 30px 0px 0px;
+}
+.page-heading .title {
+	padding-bottom: 25px;
+}
+.page-heading .faq-title {
+	margin-bottom: 30px;
+}
+#accordion {
+	margin: 0px -15px; padding: 0px 15px;
+}
+#accordion h3 {
+	padding-right: 25px; padding-bottom: 16px;
+}
+#accordion h3::before {
+	background-position: 0px 1px; height: 30px; margin-right: 10px;
+}
+#accordion .acc-content::before {
+	margin-right: 10px;
+}
+.ad-footer {
+	margin-bottom: 30px;
+}
+.ad-footer li {
+	border-radius: 8px; border: 2px solid rgb(35, 24, 21); border-image: none; width: 100%; height: 65px; text-align: left; line-height: 65px; font-size: 18px; font-weight: bold; margin-bottom: 11px; vertical-align: middle; -webkit-border-radius: 8px; -moz-border-radius: 8px;
+}
+.ad-footer li a {
+	height: 100%; display: inline-block;
+}
+.ad-footer li a::before {
+	background-position: 0px 0px; top: 50%; width: 46px; height: 46px; margin-right: 13px; margin-left: 13px; vertical-align: top; display: inline-block; position: relative; content: ""; transform: translateY(-50%); background-image: url("../img/ads-ico.png"); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -o-transform: translateY(-50%);
+}
+.ad-footer li.ads-01 {
+	background-color: rgb(255, 241, 0);
+}
+.ad-footer li.ads-02 {
+	background-color: rgb(243, 145, 188);
+}
+.ad-footer li.ads-02 a::before {
+	background-position: 0px -45px;
+}
+.ad-footer li.ads-03 {
+	background-color: rgb(98, 198, 242);
+}
+.ad-footer li.ads-03 a::before {
+	background-position: 0px 92px;
+}
+.ad-footer li.ads-04 {
+	background-color: rgb(191, 215, 48);
+}
+.ad-footer li.ads-04 a::before {
+	background-position: 0px bottom;
+}
+.checkme-follow-list-box {
+	width: 100%;
+}
+.talk-list {
+	margin-top: 15px;
+}
+.ad-slider {
+	margin: 0px -15px;
+}
+.ad-slider .ad-swiper {
+	padding: 0px;
+}
+.ad-slider .swiper-button-next {
+	width: 10px; right: 1.5%; background-image: url("../img/next.png"); background-size: contain; background-color: transparent;
+}
+.ad-slider .swiper-button-prev {
+	left: 1.5%; width: 10px; background-image: url("../img/prev.png"); background-size: contain; background-color: transparent;
+}
+.ad-swiper {
+	background-color: transparent;
+}
+.ad-swiper .swiper-slide {
+	padding: 0px; border-radius: 0px; border: 0px currentColor; border-image: none; -webkit-border-radius: 0; -moz-border-radius: 0;
+}
+.ad-swiper .swiper-slide .img {
+	width: 91%;
+}
+.modal {
+	padding-right: 0px !important;
+}
+#snsModal .modal-content li:first-child {
+	padding: 10px 0px;
+}
+#snsModal .modal-content li a {
+	padding: 10px 0px; font-size: 18px;
+}
+#snsModal .modal-bottom span {
+	padding: 10px 0px; font-size: 18px;
+}
+.message-page .checkme-follow-list-box {
+	padding: 10px 0px;
+}
+.message-page .checkme-cmt p {
+	overflow: hidden; -ms-text-overflow: ellipsis;
+}
+.mmg-message-page #wrapper {
+	transform: none; -webkit-transform: none; -moz-transform: none; -o-transform: none;
+}
+.mmg-message-page .float-menu-sp {
+	display: none;
+}
+.mmg-message-page .enter-message {
+	left: 0px; right: 0px; bottom: 0px; overflow: auto; position: fixed; z-index: 999; max-height: 65%;
+}
+[off-canvas='slidebar-2 right reveal'] .cats-menu li:first-child [class^='icon-web'] {
+	top: -4px;
+}
+.swiper-container .swiper-pagination .swiper-pagination-bullet {
+	margin: 0px 12px; width: 12px; height: 12px;
+}
+main:not(.page-mamagirl-cat) .product .cat-name {
+	line-height: 22px;
+}
+main:not(.page-mamagirl-cat) .wanted .title {
+	line-height: 22px;
+}
+.cat-id-baby-kids .cmt-form .cmt-text {
+	width: 80%;
+}
+.cat-id-baby-kids .cmt-form .btn {
+	width: 18%;
+}
+.post-user .step > p {
+	font-size: 14px;
+}
+.post-page .banner {
+	margin-bottom: 0px;
+}
+.all-rank .product .sticker + a .content {
+	width: 82%;
+}
+.all-rank .product .sticker + a .img {
+	width: 16%;
+}
+.all-rank .product .sticker ~ .entry-meta {
+	width: 82%;
+}
+.all-rank .product .img {
+	width: 13%; margin-right: 2%;
+}
+.all-rank .product .content {
+	width: 85%;
+}
+.all-rank .product .entry-meta {
+	width: 85%;
+}
+.follow-list .follow-list-box {
+	padding: 12px 0px 12px 30px; width: 100%; height: auto; float: none;
+}
+.prod-list#like-list .product {
+	height: auto; padding-bottom: 0px; margin-bottom: 0px; min-height: inherit;
+}
+.shopping-section .prod-list .product {
+	width: 31.33%; min-height: inherit;
+}
+.search-results .prod-list .product {
+	width: 31.33%;
+}
+.mobile .pr {
+	padding: 2px 5px 0px; top: 1px;
+}
+.post-detail-page .main-content {
+	padding-bottom: 0px; margin-bottom: 0px;
+}
+.activity .activity-box {
+	padding: 10px 0px 5px;
+}
+.activity .activity-box p.activity-title {
+	font-size: 14px;
+}
+.activity .activity-box p.activity-score {
+	font-size: 22px;
+}
+.tag-list li > a {
+	padding: 10px 0px 8px;
+}
+}
+@media not all
+{
+[off-canvas] {
+	padding-top: 13px;
+}
+}
+@media all and (max-width:750px)
+{
+.ad-swiper {
+	margin-top: 35px;
+}
+.all-rank .product .sticker + a .content {
+	width: 78%;
+}
+.all-rank .product .sticker + a .img {
+	width: 20%;
+}
+.all-rank .product .sticker ~ .entry-meta {
+	width: 78%;
+}
+.all-rank .product .img {
+	width: 15%; margin-right: 2%;
+}
+.all-rank .product .content {
+	width: 83%;
+}
+.all-rank .product .entry-meta {
+	width: 83%;
+}
+.mylike-page .prod-list .no-img.product .content::before {
+	padding-top: 95%;
+}
+.product .prod-info .price {
+	font-size: 16px;
+}
+.product .prod-info .brand {
+	font-size: 9px;
+}
+}
+@media all and (max-width:720px)
+{
+.talk-list .like-cmt.product .text {
+	height: 87%;
+}
+.page-mamagirl-cat .prod-list :not(.wanted).product .img {
+	height: auto !important;
+}
+}
+@media all and (max-width:667px) and (min-width:641px)
+{
+.page-mamagirl-cat .wanted .content p {
+	padding-top: 10px;
+}
+}
+@media all and (width:640px)
+{
+.page-mamagirl-cat .wanted .content p {
+	padding-top: 7px; padding-bottom: 0px;
+}
+}
+@media all and (max-width:639px)
+{
+.modal-dialog {
+	width: 95%;
+}
+.mypage-box .mypage-button {
+	font-size: 12px;
+}
+.mypage-box .mypage-button li {
+	padding-left: 15px;
+}
+.mypage-box .mypage-button li a {
+	padding-right: 0px;
+}
+.mypage-box dl dt {
+	float: none;
+}
+.main-content .main-magazine {
+	margin-bottom: 20px;
+}
+.main-content .magazine-slider {
+	margin-bottom: 15px;
+}
+.main-content .magazine-slider .swiper-container {
+	padding-bottom: 30px;
+}
+.main-content .magazine-slider .caption {
+	padding: 13px 9px; font-size: 16px;
+}
+.main-content .brand-logos {
+	margin-bottom: 20px;
+}
+.main-content .brand-logos li img {
+	max-width: 85%;
+}
+.main-content .magazine-list ul {
+	margin: 0px -5px;
+}
+.main-content .magazine-list ul li {
+	padding: 0px 5px; margin-bottom: 10px;
+}
+.mypage-single .mypage-box dl dd {
+	padding-top: 0px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.all-rank .product .sticker + a .content {
+	width: 76%;
+}
+.all-rank .product .sticker + a .img {
+	width: 22%;
+}
+.all-rank .product .sticker ~ .entry-meta {
+	width: 76%;
+}
+.all-rank .product .img {
+	width: 17%;
+}
+.all-rank .product .content {
+	width: 81%;
+}
+.all-rank .product .entry-meta {
+	width: 81%;
+}
+}
+@media all and (max-width:568px)
+{
+.page-mamagirl-cat .wanted .content p {
+	padding: 11px 2px 2px;
+}
+.mypage-box .user-img::before {
+	top: -18px;
+}
+.mypage-box .kirara-grammer.user-img {
+	padding: 9px 10px 10px 23px;
+}
+.mypage-box .kirara-grammer.user-img::before {
+	top: -16px;
+}
+.mypage-box .monthly-mvp.user-img {
+	padding: 4px 12px 12px 20px;
+}
+.mypage-box .kirara-writer.user-img {
+	padding: 4px 12px 12px 20px;
+}
+}
+@media all and (max-width:550px)
+{
+.mypage-box .kirara-star.user-img {
+	padding: 10px;
+}
+.mypage-box .monthly-mvp.user-img {
+	padding: 10px;
+}
+.mypage-box .kirara-writer.user-img {
+	padding: 10px;
+}
+.mypage-box .user-img::before {
+	top: -17px;
+}
+.mypage-box .kirara-grammer.user-img {
+	padding-left: 22px;
+}
+.dd-mything {
+	font-size: 12px;
+}
+.all-rank .product .sticker + a .content {
+	width: 72%;
+}
+.all-rank .product .sticker + a .img {
+	width: 26%;
+}
+.all-rank .product .sticker ~ .entry-meta {
+	width: 72%;
+}
+.all-rank .product .img {
+	width: 21%;
+}
+.all-rank .product .content {
+	width: 77%;
+}
+.all-rank .product .entry-meta {
+	width: 77%;
+}
+.mypage-box .sns-link .icon-ico {
+	padding-right: 10px; font-size: 18px;
+}
+.mypage-box .sns-link li a [class^='icon-web'] {
+	top: 4px; font-size: 18px; margin-right: 5px; display: inline-block; position: relative;
+}
+.mypage-box .sns-link li a [class*=' icon-web'] {
+	top: 4px; font-size: 18px; margin-right: 5px; display: inline-block; position: relative;
+}
+}
+@media all and (max-width:639px) and (min-width:415px)
+{
+.entry-meta {
+	padding-right: 0px; padding-left: 0px;
+}
+.signup-form .fb-link .icon-web-facebook {
+	width: 12%;
+}
+.signup-form .fb-link input {
+	width: 85%;
+}
+.signup-form .instagram-link .icon-web-instagram {
+	width: 12%;
+}
+.signup-form .instagram-link input {
+	width: 85%;
+}
+}
+@media all and (max-width:540px) and (min-width:415px)
+{
+.prod-list .entry-comments span {
+	font-size: 14px;
+}
+.prod-list .entry-comments .icon-heart {
+	border-radius: 15px; width: 15px; height: 15px; line-height: 16px; font-size: 11px; -webkit-border-radius: 15px; -moz-border-radius: 15px;
+}
+.prod-list .entry-likes span {
+	font-size: 14px;
+}
+.prod-list .entry-likes .icon-heart {
+	border-radius: 15px; width: 15px; height: 15px; line-height: 16px; font-size: 11px; -webkit-border-radius: 15px; -moz-border-radius: 15px;
+}
+}
+@media all and (max-width:540px)
+{
+.page-mamagirl-cat .prod-list .product .content {
+	padding: 0px 5px;
+}
+.page-mamagirl-cat .prod-list .product .entry-meta {
+	padding: 5px;
+}
+.page-mamagirl-cat .prod-list .product .entry-meta .pr {
+	right: 5px;
+}
+.page-mamagirl-cat .entry-meta::before {
+	left: 5px; right: 5px;
+}
+.entry-meta .entry-comments {
+	padding-top: 5px; padding-bottom: 5px; margin-top: 4px;
+}
+.entry-meta .entry-likes {
+	padding-top: 5px; padding-bottom: 5px; margin-top: 4px; margin-left: 7px;
+}
+.entry-meta .entry-author span {
+	line-height: 16px; font-size: 12px; max-height: 31px;
+}
+.signup-form .col-1 {
+	width: 100%; margin-bottom: 20px;
+}
+.signup-form .col-2 {
+	width: 100%;
+}
+.signup-form .avatar {
+	margin: 10px auto 0px; max-width: 200px;
+}
+.signup-form .avatar .change {
+	height: 45px; line-height: 45px;
+}
+#header .main-menu .nav li a {
+	font-size: 14px;
+}
+#header .main-menu .nav li a span {
+	padding: 10px 15px 7px;
+}
+#footer .appStore .content img {
+	max-width: 150px;
+}
+#footer .appStore .content p {
+	line-height: 22px; font-size: 14px; margin-bottom: 10px;
+}
+.slider .caption .text {
+	font-size: 13px;
+}
+.slider .caption .text span {
+	line-height: 18px;
+}
+.slider .caption .title {
+	top: 0px; height: 30px; line-height: 34px; font-size: 12px;
+}
+.follow-list .follow-list-box > img {
+	width: 20%;
+}
+.follow-list .follow-list-box ul {
+	width: auto; padding-top: 10px;
+}
+.banner .cat-title .all-rank-txt {
+	color: rgb(35, 24, 21); display: inline;
+}
+.mylike-page .follow-list-box .cmt {
+	left: 23%;
+}
+}
+@media all and (max-width:520px)
+{
+.activity .activity-box {
+	padding: 5px 0px 2px;
+}
+.activity .activity-box p.activity-title {
+	font-size: 10px; margin-bottom: 0px;
+}
+.activity .activity-box p.activity-score {
+	font-size: 16px;
+}
+.mypage-box .mypage-button {
+	font-size: 10px;
+}
+.all-rank .no-img.product .sticker + a .content {
+	padding-left: 45px;
+}
+}
+@media all and (max-width:610px) and (min-width:466px)
+{
+.prod-list#like-list .no-img.product .text {
+	max-height: 250px;
+}
+}
+@media all and (max-width:540px) and (min-width:466px)
+{
+.prod-list .entry-meta .entry-likes span {
+	font-size: 12px;
+}
+.prod-list .entry-meta .entry-likes .icon-tello {
+	border-radius: 15px; top: 0px; width: 15px; height: 15px; line-height: 16px; position: relative; -webkit-border-radius: 15px; -moz-border-radius: 15px;
+}
+.prod-list .entry-meta .entry-comments span {
+	font-size: 12px;
+}
+.prod-list .entry-meta .entry-author span {
+	font-size: 11px;
+}
+}
+@media all and (max-width:480px)
+{
+.shopping-section .prod-list .product .cat-name {
+	height: 15px; line-height: 16px;
+}
+.mypage-box .user-img::before {
+	top: -16px;
+}
+.mypage-box .kirara-grammer.user-img {
+	padding-left: 20px;
+}
+.mypage-box .monthly-mvp.user-img {
+	padding: 2px 10px 10px 17px;
+}
+.mypage-box .kirara-writer.user-img {
+	padding: 2px 10px 10px 17px;
+}
+.ad-footer {
+	margin-bottom: 20px;
+}
+.ad-slider .swiper-button-next {
+	width: 8px; right: 1.25%;
+}
+.ad-slider .swiper-button-prev {
+	left: 1.25%; width: 8px;
+}
+.cat-meta li a {
+	font-size: 12px;
+}
+.cat-meta li a::before {
+	width: 14px; height: 14px; line-height: 11px; font-size: 10px; margin-right: 5px;
+}
+.page-mamagirl-cat .wanted .content p {
+	line-height: 20px; padding-top: 6px;
+}
+main:not(.page-mamagirl-cat) .pr {
+	padding: 0px 2px; border-radius: 4px; border: 1px solid rgb(0, 0, 0); border-image: none; line-height: 1; font-size: 8px; margin-right: 5px; -webkit-border-radius: 4px; -moz-border-radius: 4px;
+}
+main:not(.page-mamagirl-cat) .product .cat-name {
+	padding: 0px 5px; height: 12px; line-height: 11px; font-size: 10px;
+}
+main:not(.page-mamagirl-cat) .product .cat-name .pr {
+	top: 0px;
+}
+main:not(.page-mamagirl-cat) .all-rank .product .cat-name {
+	height: 15px; line-height: 15px;
+}
+main:not(.page-mamagirl-cat) .wanted .title {
+	padding: 0px 5px; height: 12px; line-height: 11px; font-size: 10px;
+}
+main:not(.page-mamagirl-cat) .wanted-image .title {
+	padding: 0px 5px; height: 12px; line-height: 11px; font-size: 10px;
+}
+main:not(.page-mamagirl-cat) .wanted-image .img {
+	top: 12px;
+}
+.prod-list .product .img .content-cassette-noimage span {
+	font-size: 12px;
+}
+.prod-list .product .entry-meta .pr {
+	border: 2px solid rgb(255, 255, 255); border-image: none;
+}
+.talk-list .like-cmt.product .text {
+	height: 84%;
+}
+.carousel .carousel-item .title {
+	line-height: 16px; font-size: 10px;
+}
+.banner .sub-txt {
+	font-size: 10px;
+}
+#footer .appStore {
+	margin-bottom: 15px;
+}
+.mylike-page .prod-list .no-img.product .content p {
+	top: 10px;
+}
+}
+@media all and (max-width:465px)
+{
+.mylike-page .follow-list-box .cmt {
+	padding-right: 60px;
+}
+.mylike-page .follow-list-box .img-post {
+	max-width: 55px;
+}
+.mylike-page .prod-list .no-img.product .content {
+	height: 90px;
+}
+.page-mamagirl-cat .prod-list .product .content {
+	bottom: 38px; min-height: 52px;
+}
+.page-mamagirl-cat .prod-list .product .entry-meta {
+	height: 36px;
+}
+.page-mamagirl-cat .prod-list .wanted .content {
+	padding-right: 5px; padding-left: 5px;
+}
+.page-mamagirl-cat :not(.wanted).product .content .text {
+	margin-bottom: 7px;
+}
+.page-mamagirl-cat .wanted .content p {
+	line-height: 18px; padding-bottom: 0px; margin-bottom: 8px;
+}
+.signup-form select {
+	width: 60%;
+}
+.signup-form .required {
+	font-size: 14px;
+}
+.signup-form .day-of-birth {
+	position: relative;
+}
+.signup-form .day-of-birth select {
+	width: 31%;
+}
+.signup-form .day-of-birth .required {
+	top: 2px; right: 0px; position: absolute;
+}
+.signup-form .day-of-birth .kids-status .required {
+	top: auto;
+}
+.signup-form .date-group select {
+	width: 31%;
+}
+.signup-form .date-group label {
+	font-size: 14px; margin-right: 0px; margin-left: 14px;
+}
+.signup-form .date-group label:first-child {
+	margin-left: 0px;
+}
+.signup-form .date-kids {
+	position: relative;
+}
+.signup-form .date-kids .required {
+	top: 2px; right: 0px; position: absolute;
+}
+.signup-form .date-kids .required + .date-group {
+	margin-top: 10px;
+}
+.signup-form .date-kids .kids-status .required {
+	top: auto;
+}
+.mypage-box .box-inner-left {
+	width: 40%;
+}
+.mypage-box .box-inner-right {
+	width: 60%; padding-left: 20px;
+}
+.mypage-box .mypage-button ul li a {
+	font-size: 12px;
+}
+.post-editor-form .required {
+	right: -20px;
+}
+.post-editor-form .btn {
+	padding: 0px; font-size: 12px;
+}
+.post-editor-form table td:first-child {
+	width: 27%;
+}
+.post-editor-form table td:last-child {
+	width: 73%; padding-right: 20px;
+}
+.checkme-follow-list-box {
+	padding: 10px;
+}
+.star.checkme-follow-list-box .checkme-prof-img::before {
+	top: -4px; width: 26px; height: 28px; right: -12px;
+}
+.checkme-prof-img {
+	width: 52px; height: 52px;
+}
+.checkme-follow-list .author-img .rank-icon {
+	top: -4px; width: 17px; height: 30px; right: -7px;
+}
+.checkme-follow-list .author-img .monthly-mvp.rank-icon {
+	right: -5px;
+}
+.checkme-follow-list .author-img .kirara-writer.rank-icon {
+	right: -4px;
+}
+.checkme-img-post {
+	width: 54px; height: 54px;
+}
+.checkme-cmt {
+	line-height: 1.5;
+}
+.checkme-cmt .time {
+	padding-left: 5px;
+}
+.prod-list .no-img.product .text {
+	padding: 8px;
+}
+.prod-list .no-img.product .content::before {
+	
+}
+.prod-list .product .entry-meta {
+	padding-right: 0px; padding-left: 0px;
+}
+.prod-list .product .entry-meta .entry-likes {
+	padding-top: 0px; padding-bottom: 0px;
+}
+.prod-list .product .entry-meta .entry-comments {
+	padding-top: 1px; padding-bottom: 1px; padding-left: 3px; margin-top: 1px;
+}
+.prod-list .product .entry-meta .entry-comments b {
+	font-size: 7px;
+}
+.prod-list .product .entry-meta .entry-author img {
+	max-width: 22px;
+}
+.prod-list .product .text {
+	height: 40px; line-height: 18px; font-size: 11px;
+}
+.talk-list .social-meta {
+	height: 40px; bottom: 35px;
+}
+.talk-list .social-meta li span {
+	font-size: 14px;
+}
+.cat-id-baby-kids .cmt-form .cmt-text {
+	width: 74%; margin-right: 3%;
+}
+.cat-id-baby-kids .cmt-form .btn {
+	width: 23%;
+}
+.post-detail-page .follows-me .follow-links {
+	margin: 0px auto 20px; padding: 10px; text-align: center; float: none; max-width: 220px;
+}
+.post-detail-page .follows-me .social-links {
+	margin: 0px auto; width: 170px; text-align: center; float: none;
+}
+.post-detail-page .follows-me .social-links::after {
+	clear: both; display: block; content: "";
+}
+.all-rank .product .sticker + a .content {
+	width: 65%;
+}
+.all-rank .product .sticker + a .img {
+	width: 33%;
+}
+.all-rank .product .sticker ~ .entry-meta {
+	width: 65%;
+}
+.all-rank .product .img {
+	width: 24%;
+}
+.all-rank .product .content {
+	width: 74%;
+}
+.all-rank .product .entry-meta {
+	width: 74%;
+}
+.main-content .magazine-slider .caption {
+	font-size: 12px;
+}
+main:not(.page-mamagirl-cat) .wanted .content p {
+	height: 80px !important;
+}
+}
+@media all and (max-width:430px)
+{
+.mypage-box dl dt {
+	float: none;
+}
+.ui-dialog .img-info input {
+	font-size: 10px;
+}
+}
+@media all and (max-width:429px)
+{
+.login-form input {
+	height: 50px; line-height: 50px; font-size: 16px;
+}
+.login-form .btn-group .btn {
+	margin: 0px 10px;
+}
+.login-page {
+	padding: 0px 15px;
+}
+.login-page .social-link {
+	height: 50px; text-align: center; line-height: 50px; padding-left: 0px; font-size: 14px;
+}
+.login-page .social-link .icon-tello {
+	width: 25px; height: 25px; line-height: 26px; margin-right: 5px;
+}
+.ui-dialog .ui-dialog-buttonset .btn {
+	min-width: inherit;
+}
+}
+@media all and (max-width:414px)
+{
+.entry-meta {
+	padding-right: 5px;
+}
+[off-canvas] {
+	padding-bottom: 50px;
+}
+#footer {
+	padding-top: 30px; padding-bottom: 55px;
+}
+#footer .appStore {
+	padding: 15px 10px 0px;
+}
+#footer .appStore .content img {
+	max-width: 120px;
+}
+#footer .appStore .content p {
+	line-height: 20px; font-size: 12px; margin-bottom: 10px;
+}
+#footer .cats-list ul li {
+	padding-bottom: 12px; margin-bottom: 12px;
+}
+#footer .cats-list ul li a {
+	padding: 6px 0px; font-size: 14px;
+}
+#footer .cats-list ul::after {
+	bottom: 12px;
+}
+.float-menu-sp {
+	padding: 10px 0px 14px;
+}
+.float-menu-sp ul li a {
+	padding-top: 18px; font-size: 10px;
+}
+.float-menu-sp ul li a::before {
+	font-size: 18px;
+}
+.float-menu-sp ul li a.posting::before {
+	width: 64px; height: 64px;
+}
+.signup-form .fb-link .icon-web-facebook {
+	width: 14%;
+}
+.signup-form .fb-link input {
+	width: 83%;
+}
+.signup-form .instagram-link .icon-web-instagram {
+	width: 14%;
+}
+.signup-form .instagram-link input {
+	width: 83%;
+}
+.tab-link li {
+	font-size: 13px;
+}
+.tab-link li a {
+	max-height: 24px;
+}
+.tab-link li a > span[class^='icon'] {
+	top: -1px; margin-right: 4px;
+}
+.tab-link li a > span.icon-ico-user {
+	top: 0px;
+}
+.tab-link li .icomoon-ico-article {
+	top: 2px; margin-right: 4px;
+}
+.tab-link li .icomoon-ico-article + span {
+	top: -2px;
+}
+.follow-list .follow-list-box > img {
+	width: 18%;
+}
+.post-page .entry-meta {
+	padding-bottom: 10px; margin-bottom: 8px;
+}
+.post-page .entry-meta .entry-author img {
+	max-width: 45px;
+}
+.post-page .entry-meta .entry-author .author-img {
+	margin-right: 12px;
+}
+.post-page .entry-meta .entry-author span {
+	width: auto; font-size: 12px;
+}
+.post-page .entry-meta .entry-author .follow-links {
+	padding: 7px 0px 7px 5px; width: 95px; font-size: 12px; margin-top: 5px;
+}
+.post-page .entry-meta .entry-cmts {
+	margin-top: 16px;
+}
+.post-page .entry-meta .entry-cmts i {
+	font-size: 28px; margin-right: 0px; margin-left: 10px;
+}
+.post-page .entry-meta .entry-heart {
+	margin-top: 16px;
+}
+.post-page .entry-meta .entry-heart i {
+	font-size: 28px;
+}
+.post-page .entry-meta .entry-likes {
+	padding-top: 0px; padding-bottom: 0px; margin-top: 20px;
+}
+.post-page .entry-meta .entry-likes span {
+	font-size: 22px;
+}
+.post-page .entry-meta .entry-comments {
+	padding-top: 0px; padding-bottom: 0px; margin-top: 20px;
+}
+.post-page .entry-meta .entry-comments span {
+	font-size: 22px;
+}
+.main-content .follows-me .follow-links {
+	padding: 7px 37px 7px 10px;
+}
+.main-content .follows-me .social-links .icomoon-ico-more {
+	font-size: 16px;
+}
+.prod-list#like-list .product {
+	max-height: 250px;
+}
+.slider .caption .text {
+	padding-bottom: 7px;
+}
+}
+@media all and (max-width:413px)
+{
+.all-rank .product .img {
+	width: 25%; margin-right: 2%;
+}
+.all-rank .product .content {
+	width: 73%;
+}
+.all-rank .product .entry-meta {
+	padding: 3px 0px; width: 73%;
+}
+.all-rank .product .entry-meta .entry-author img {
+	margin-top: 3px; max-width: 25px;
+}
+.all-rank .product .entry-meta .entry-author span {
+	top: -3px;
+}
+.all-rank .product .entry-meta .entry-likes span {
+	font-size: 14px;
+}
+.all-rank .product .entry-meta .entry-comments span {
+	font-size: 14px;
+}
+.all-rank .product .sticker + a .content {
+	padding-left: 15px;
+}
+.product .prod-info .price {
+	font-size: 16px;
+}
+.product .prod-info .brand {
+	font-size: 9px;
+}
+.main-content .main-magazine {
+	padding-left: 0px;
+}
+.main-content .main-magazine .magazine-name h3 {
+	font-size: 24px;
+}
+}
+@media all and (max-width:390px)
+{
+.prod-list#like-list .no-img.product .text {
+	height: 190px;
+}
+}
+@media all and (max-width:375px)
+{
+.mypage-box .user-img::before {
+	top: -14px;
+}
+.mypage-box .kirara-grammer.user-img {
+	padding: 9px 9px 9px 18px;
+}
+.mypage-box .kirara-grammer.user-img::before {
+	top: -13px;
+}
+.mypage-box .monthly-mvp.user-img {
+	padding-left: 16px;
+}
+.mypage-box .kirara-writer.user-img {
+	padding-left: 16px;
+}
+.message-page .checkme-username {
+	font-size: 14px; margin-bottom: 1px;
+}
+.message-page .checkme-cmt {
+	min-height: 60px;
+}
+.message-page .checkme-cmt p {
+	font-size: 13px;
+}
+.page-mamagirl-cat .product .cat-name {
+	height: 18px; line-height: 14px; font-size: 13px;
+}
+.page-mamagirl-cat .wanted .title {
+	height: 18px; line-height: 14px; font-size: 13px;
+}
+.page-mamagirl-cat .wanted-image .title {
+	height: 18px; line-height: 14px; font-size: 13px;
+}
+.page-mamagirl-cat .prod-list .wanted-image.product .title {
+	height: 18px; line-height: 14px; font-size: 13px;
+}
+.page-mamagirl-cat .prod-list .wanted-image.product .img {
+	top: 18px;
+}
+.page-mamagirl-cat .cat-name .pr {
+	top: 0px; line-height: 9px; font-size: 10px; margin-right: 5px;
+}
+.page-mamagirl-cat .prod-list .wanted.product .text {
+	line-height: 17px; padding-top: 4px; margin-bottom: 7px;
+}
+.ad-footer li a::before {
+	margin-right: 8px;
+}
+.talk-list.prod-list .product .entry-meta .entry-author span {
+	margin-left: 4px;
+}
+}
+@media all and (max-width:360px)
+{
+.cat-meta {
+	padding: 10px 5px;
+}
+.cat-meta li a {
+	font-size: 11px;
+}
+.cat-meta li a::before {
+	top: -1px; width: 12px; height: 12px; line-height: 9px; font-size: 8px; margin-right: 3px; position: relative;
+}
+.page-mamagirl-cat .prod-list .product .content {
+	padding: 0px 5px;
+}
+.page-mamagirl-cat .prod-list .wanted.product .text {
+	padding-top: 3px; margin-bottom: 5px;
+}
+#footer .appStore .content p {
+	line-height: 14px; font-size: 11px;
+}
+.follow-list .follow-list-box ul {
+	font-size: 14px;
+}
+.main-content .follows-me .follow-links {
+	padding-right: 10px;
+}
+.prod-list#like-list .product {
+	max-height: 230px;
+}
+.shopping-section .cat-name .pr {
+	padding: 0px 3px; top: -1px; line-height: 10px; font-size: 8px; margin-right: 2px;
+}
+.slider .caption .title {
+	height: 28px; line-height: 30px;
+}
+.slider .caption .text {
+	font-size: 12px;
+}
+.ad-footer li {
+	font-size: 14px;
+}
+}
+@media all and (max-width:350px)
+{
+.mypage-box .kirara-star.user-img {
+	padding: 8px;
+}
+.mypage-box .user-img::before {
+	top: -13px;
+}
+.mypage-box .kirara-grammer.user-img {
+	padding: 7px 8px 8px 16px;
+}
+.mypage-box .monthly-mvp.user-img {
+	padding: 3px 9px 9px 14px;
+}
+.mypage-box .kirara-writer.user-img {
+	padding: 2px 9px 9px 14px;
+}
+.all-rank .product .sticker + a .content {
+	width: 61%;
+}
+.all-rank .product .sticker + a .img {
+	width: 37%;
+}
+.all-rank .product .sticker ~ .entry-meta {
+	width: 61%;
+}
+.all-rank .product .img {
+	width: 28%;
+}
+.all-rank .product .content {
+	width: 70%;
+}
+.all-rank .product .entry-meta {
+	width: 70%;
+}
+.main-content .magazine-slider .caption p br {
+	display: none;
+}
+.mypage-box .mypage-button li {
+	padding-left: 7px;
+}
+.mypage-box .mypage-button li a {
+	padding-left: 37px;
+}
+}
+@media all and (max-width:330px)
+{
+.float-menu-sp {
+	padding: 7px 0px 14px;
+}
+.float-menu-sp ul li a.posting::before {
+	top: -20px; width: 58px; height: 58px;
+}
+.post-editor-form p {
+	font-size: 12px;
+}
+.post-editor-form .imageBox + .btn {
+	padding: 0px; font-size: 10px;
+}
+.ad-slider .swiper-button-prev {
+	left: 3px;
+}
+.ad-slider .swiper-button-next {
+	right: 3px;
+}
+.prod-list .product .entry-meta .entry-author img {
+	max-width: 20px;
+}
+.prod-list#like-list .no-img.product .text {
+	height: 170px;
+}
+.page-mamagirl-cat .prod-list .wanted.product .text {
+	line-height: 15px;
+}
+}
