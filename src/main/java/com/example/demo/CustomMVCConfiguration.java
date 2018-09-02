@@ -37,7 +37,7 @@ public class CustomMVCConfiguration implements  WebMvcConfigurer {
         configurer.favorPathExtension(false);
     }
     
-    /*资源处理器*/
+    /*资源处理器 */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
     	
